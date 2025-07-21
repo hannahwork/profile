@@ -7,8 +7,11 @@ h1, h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px;
     #profile-image{
-    width: 220px;
+    width: 180px;
+    border-radius: 50%;
+    padding-right: 20px;
     }
     #about-me-text{
         max-width: 50ch;
@@ -16,6 +19,8 @@ h1, h2{
 }
 
 .languages-section{
+    margin-left: 47%;
+    margin-bottom: 20px;
     justify-content: center;
 }
 
