@@ -1,0 +1,37 @@
+body {}
+
+h1, h2{
+    text-align: center;
+}
+.about-me-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #profile-image{
+    width: 220px;
+    }
+    #about-me-text{
+        max-width: 50ch;
+    }
+}
+
+.languages-section{
+    justify-content: center;
+}
+
+.interests-section-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.interests-section-card{
+    border: aquamarine 4px solid ;
+    width: 500px;
+    #topic-title{
+        text-align: center;
+    }
+}
+
+.contact-me-section{
+    text-align: center;
+}
